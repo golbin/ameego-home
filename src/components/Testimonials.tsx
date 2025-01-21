@@ -1,6 +1,8 @@
 "use client";
 
-function classNames(...classes) {
+import Image from "next/image";
+
+function classNames(...classes: (string | boolean | undefined)[]) {
   return classes.filter(Boolean).join(" ");
 }
 
@@ -9,9 +11,7 @@ const featuredTestimonial = {
   author: {
     name: "서은",
     handle: "Business Manager",
-    imageUrl:
-      "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80",
-    logoUrl: "https://tailwindui.com/plus/img/logos/savvycal-logo-gray-900.svg",
+    imageUrl: "/avatar-1.png",
   },
 };
 
@@ -23,8 +23,7 @@ const testimonials = [
         author: {
           name: "광섭",
           handle: "Entrepreneur",
-          imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          imageUrl: "/avatar-2.png",
         },
       },
     ],
@@ -34,8 +33,7 @@ const testimonials = [
         author: {
           name: "유나",
           handle: "HR Manager",
-          imageUrl:
-            "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          imageUrl: "/avatar-3.png",
         },
       },
     ],
@@ -47,8 +45,7 @@ const testimonials = [
         author: {
           name: "이라",
           handle: "Product Manager",
-          imageUrl:
-            "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          imageUrl: "/avatar-4.png",
         },
       },
     ],
@@ -58,8 +55,7 @@ const testimonials = [
         author: {
           name: "선향",
           handle: "High School Student",
-          imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          imageUrl: "/avatar-5.png",
         },
       },
     ],
@@ -127,7 +123,7 @@ export default function Testimonials() {
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-base/7 font-semibold text-indigo-600"></h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
-              "자연스럽고 유익해요!"
+              &ldquo;자연스럽고 유익해요!&rdquo;
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm/6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
@@ -136,10 +132,12 @@ export default function Testimonials() {
                 <p>{`“${featuredTestimonial.body}”`}</p>
               </blockquote>
               <figcaption className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
-                <img
+                <Image
                   alt=""
                   src={featuredTestimonial.author.imageUrl}
                   className="size-10 flex-none rounded-full bg-gray-50"
+                  width={100}
+                  height={100}
                 />
                 <div className="flex-auto">
                   <div className="font-semibold">
@@ -175,10 +173,12 @@ export default function Testimonials() {
                           <p>{`“${testimonial.body}”`}</p>
                         </blockquote>
                         <figcaption className="mt-6 flex items-center gap-x-4">
-                          <img
+                          <Image
                             alt=""
                             src={testimonial.author.imageUrl}
                             className="size-10 rounded-full bg-gray-50"
+                            width={100}
+                            height={100}
                           />
                           <div>
                             <div className="font-semibold">

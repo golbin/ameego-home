@@ -1,3 +1,7 @@
+"use client";
+
+import Image from "next/image";
+
 const blogPosts = [
   {
     id: 1,
@@ -39,25 +43,24 @@ export default function Gallary() {
       </div>
       <div className="mx-auto  w-[22.875rem] sm:w-full lg:w-full max-w-full mt-16 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
         {blogPosts.map((post) => (
-          <>
-            <article
-              key={post.id}
-              className="aspect-[9/19.5] relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
-            >
-              <img
-                alt=""
-                src={post.imageUrl}
-                className="absolute inset-0 -z-10 size-full object-cover"
-              />
-              <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40 via-25% to-transparent" />
-              <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+          <article
+            key={post.id}
+            className="aspect-[9/19.5] relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+          >
+            <Image
+              alt={post.name}
+              src={post.imageUrl}
+              fill
+              className="absolute inset-0 -z-10 size-full object-cover"
+            />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40 via-25% to-transparent" />
+            <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
-              <h3 className="mt-3 text-lg/6 font-semibold text-white">
-                <span className="absolute inset-0" />
-                {post.title}
-              </h3>
-            </article>
-          </>
+            <h3 className="mt-3 text-lg/6 font-semibold text-white">
+              <span className="absolute inset-0" />
+              {post.title}
+            </h3>
+          </article>
         ))}
       </div>
     </div>

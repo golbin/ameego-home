@@ -1,3 +1,5 @@
+"use client";
+
 export default function Company() {
   return (
     <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
