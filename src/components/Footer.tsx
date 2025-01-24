@@ -15,10 +15,18 @@ export default function Footer() {
           aria-label="Footer"
           className="-mb-6 mt-4 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm/6"
         >
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a
+            href="https://docs.ameego.club/ko/terms-of-use"
+            target="_blank"
+            className="text-gray-600 hover:text-gray-900"
+          >
             이용약관
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a
+            href="https://docs.ameego.club/ko/privacy-policy"
+            target="_blank"
+            className="text-gray-600 hover:text-gray-900"
+          >
             개인정보처리방침
           </a>
         </nav>
