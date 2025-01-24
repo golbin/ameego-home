@@ -18,7 +18,7 @@ const blogPosts = [
   {
     id: 3,
     title: "매일 업데이트되는 최신 토픽으로 이야기 나눠요",
-    imageUrl: "/screenshot_2_3.png",
+    imageUrl: "/screenshot_1_5.png",
     name: "Ameego today",
   },
   {
@@ -45,7 +45,7 @@ export default function Gallary() {
         {blogPosts.map((post) => (
           <article
             key={post.id}
-            className="aspect-[9/19.5] relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+            className="aspect-[9/19.5] relative isolate border-2 border-gray-900 flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-6 pt-80 sm:pt-48 lg:pt-80"
           >
             <Image
               alt={post.name}
@@ -53,8 +53,7 @@ export default function Gallary() {
               fill
               className="absolute inset-0 -z-10 size-full object-cover"
             />
-            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40 via-25% to-transparent" />
-            <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/20 via-25% to-transparent" />
 
             <h3 className="mt-3 text-lg/6 font-semibold text-white">
               <span className="absolute inset-0" />
