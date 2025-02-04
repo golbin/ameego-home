@@ -29,6 +29,13 @@ export default function Footer() {
           >
             개인정보처리방침
           </a>
+          <a
+            href="https://docs.ameego.club/ko/faq"
+            target="_blank"
+            className="text-gray-600 hover:text-gray-900"
+          >
+            FAQ
+          </a>
         </nav>
       </div>
     </footer>

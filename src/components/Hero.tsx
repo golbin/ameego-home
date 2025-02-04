@@ -54,16 +54,15 @@ export default function Hero() {
           <div className="mt-10 flex items-center gap-x-6">
             <a href="#">
               <div className="flex items-center gap-2">
-                <a href="https://apps.apple.com/app/id6444499486">
+                <a href="https://apps.apple.com/app/id6737622731">
                   <Image
                     src="/apple-store-icon.png"
                     width={160}
                     height={160}
                     alt="Apple Store Icon"
-                    className="opacity-50"
                   />
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.playmore.ameego">
+                <a href="https://play.google.com/store/apps/details?id=com.playmoreai.ameego">
                   <Image
                     src="/play-store-icon.png"
                     width={160}
