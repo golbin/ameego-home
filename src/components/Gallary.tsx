@@ -18,13 +18,13 @@ const blogPosts = [
   {
     id: 3,
     title: "매일 업데이트되는 최신 토픽으로 이야기 나눠요",
-    imageUrl: "/screenshot_1_5.png",
+    imageUrl: "/screenshot_2_3.png",
     name: "Ameego today",
   },
   {
     id: 4,
     title: "다양한 아미고와 자유롭게 대화하세요",
-    imageUrl: "/screenshot_1_2.png",
+    imageUrl: "/screenshot_2_4.png",
     name: "Ameego call",
   },
 ];
