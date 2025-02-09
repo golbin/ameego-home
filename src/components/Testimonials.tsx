@@ -23,7 +23,7 @@ const testimonials = [
         author: {
           name: "광섭",
           handle: "Entrepreneur",
-          imageUrl: "/avatar-2.png",
+          imageUrl: "/avatar-3.png",
         },
       },
     ],
@@ -33,7 +33,7 @@ const testimonials = [
         author: {
           name: "유나",
           handle: "HR Manager",
-          imageUrl: "/avatar-3.png",
+          imageUrl: "/avatar-4.png",
         },
       },
     ],
@@ -45,7 +45,7 @@ const testimonials = [
         author: {
           name: "이라",
           handle: "Product Manager",
-          imageUrl: "/avatar-4.png",
+          imageUrl: "/avatar-5.png",
         },
       },
     ],
@@ -55,7 +55,7 @@ const testimonials = [
         author: {
           name: "선향",
           handle: "High School Student",
-          imageUrl: "/avatar-5.png",
+          imageUrl: "/avatar-2.png",
         },
       },
     ],
