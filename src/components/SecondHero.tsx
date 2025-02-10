@@ -77,7 +77,7 @@ export default function SecondHero() {
                 <div className="relative">
                   <Image
                     alt=""
-                    src="/screenshot_1_2.png"
+                    src="/screenshot_1_2.webp"
                     width={176}
                     height={380}
                     className="aspect-[9/19.5] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
@@ -89,7 +89,7 @@ export default function SecondHero() {
                 <div className="relative">
                   <Image
                     alt=""
-                    src="/screenshot_1_1.png"
+                    src="/screenshot_1_1.webp"
                     width={176}
                     height={380}
                     className="aspect-[9/19.5] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
@@ -99,7 +99,7 @@ export default function SecondHero() {
                 <div className="relative">
                   <Image
                     alt=""
-                    src="/screenshot_1_3.png"
+                    src="/screenshot_1_3.webp"
                     width={176}
                     height={380}
                     className="aspect-[9/19.5] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
@@ -111,7 +111,7 @@ export default function SecondHero() {
                 <div className="relative">
                   <Image
                     alt=""
-                    src="/screenshot_1_4.png"
+                    src="/screenshot_1_4.webp"
                     width={176}
                     height={380}
                     className="aspect-[9/19.5] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
@@ -121,7 +121,7 @@ export default function SecondHero() {
                 <div className="relative">
                   <Image
                     alt=""
-                    src="/screenshot_1_5.png"
+                    src="/screenshot_1_5.webp"
                     width={176}
                     height={380}
                     className="aspect-[9/19.5] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"

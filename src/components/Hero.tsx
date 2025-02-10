@@ -106,7 +106,7 @@ export default function Hero() {
               transform="translate(24 24)"
             >
               <Image
-                src="/screenshot_hero.png"
+                src="/screenshot_hero.webp"
                 alt="App Screenshot"
                 width={316}
                 height={684}

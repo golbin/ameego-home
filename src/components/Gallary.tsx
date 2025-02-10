@@ -6,25 +6,25 @@ const blogPosts = [
   {
     id: 1,
     title: "아미고가 진행하는 파드캐스트로 새로운 표현을 배워요",
-    imageUrl: "/screenshot_2_1.png",
+    imageUrl: "/screenshot_2_1.webp",
     name: "Ameego podcast",
   },
   {
     id: 2,
     title: "대화를 나눴던 내용과 중요한 표현들을 똑똑하게 기록하고 정리줘요",
-    imageUrl: "/screenshot_2_2.png",
+    imageUrl: "/screenshot_2_2.webp",
     name: "Ameego note",
   },
   {
     id: 3,
     title: "매일 업데이트되는 최신 토픽으로 이야기 나눠요",
-    imageUrl: "/screenshot_2_3.png",
+    imageUrl: "/screenshot_2_3.webp",
     name: "Ameego today",
   },
   {
     id: 4,
     title: "다양한 아미고와 자유롭게 대화하세요",
-    imageUrl: "/screenshot_2_4.png",
+    imageUrl: "/screenshot_2_4.webp",
     name: "Ameego call",
   },
 ];
