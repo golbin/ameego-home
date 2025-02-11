@@ -54,7 +54,10 @@ export default function Hero() {
           <div className="mt-10 flex items-center gap-x-6">
             <a href="#">
               <div className="flex items-center gap-2">
-                <a href="https://apps.apple.com/app/id6737622731">
+                <a
+                  href="https://apps.apple.com/app/id6737622731"
+                  target="_blank"
+                >
                   <Image
                     src="/apple-store-icon.png"
                     width={160}
