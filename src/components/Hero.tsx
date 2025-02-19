@@ -65,20 +65,17 @@ export default function Hero() {
                     alt="Apple Store Icon"
                   />
                 </a>
-                <button
-                  onClick={() =>
-                    alert("구글 플레이 스토어 버전은 2주 이내에 출시됩니다!")
-                  }
-                  className="cursor-pointer"
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.playmoreai.ameego"
+                  target="_blank"
                 >
                   <Image
                     src="/play-store-icon.png"
                     width={160}
                     height={160}
                     alt="Google Play Store Icon"
-                    className="opacity-50"
                   />
-                </button>
+                </a>
               </div>
             </a>
           </div>
