@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "Testimonial": {
+      "title": "It’s natural and insightful!"
+    },
+    "Hero": {
+      "description1": "Ameego means 'friend' in Spanish.",
+      "description2": "Ameego is a service that lets you naturally acquire and enjoy learning a foreign language by chatting with various AI friends."
+    },
+    "Footer": {
+      "termsOfUse": "Terms of Use",
+      "privacyPolicy": "Privacy Policy",
+      "faq": "FAQ"
+    },
+    "Gallary": {
+      "description": "Chat on a variety of topics in different ways with the Ameego that suits you best, and learn a new language naturally while having fun."
+    },
+    "SecondHero": {
+      "description1": "From friendly developers and no-nonsense accountants to adventurous travelers and calm yoga instructors!",
+      "description2": "Meet Ameegos of different nationalities, professions, hobbies, and speaking styles, and enjoy networking.",
+      "description3": "Get closer with an Ameego that remembers your conversations and checks in on you.",
+      "description4": "Ameego offers an AI experience that feels just like talking to a real person."
+    }
+  }
+}

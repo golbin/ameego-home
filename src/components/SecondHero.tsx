@@ -1,8 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function SecondHero() {
+  const t = useTranslations("HomePage");
+
   return (
     <div>
       <svg
@@ -54,22 +57,10 @@ export default function SecondHero() {
                 Say Hello to Ameegos!
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                <p className="font-bold mb-4">
-                  친근한 개발자, 냉정한 회계사, 재미난 여행가, 차분한 요가
-                  선생님까지!
-                </p>
-                <p className="mb-4">
-                  각기 다른 국적과 직업, 취미, 말투를 가진 아미고를 만나며
-                  네트워킹을 즐겨보세요.
-                </p>
-                <p className="mb-4">
-                  나와의 대화를 기억하고, 안부를 물어주는 아미고와 좀 더 친해질
-                  수 있어요.
-                </p>
-                <p>
-                  아미고는 마치 실제 사람과 대화하는것과 유사한 AI 경험을
-                  제공해요.
-                </p>
+                <p className="font-bold mb-4">{t("SecondHero.description1")}</p>
+                <p className="mb-4">{t("SecondHero.description2")}</p>
+                <p className="mb-4">{t("SecondHero.description3")}</p>
+                <p>{t("SecondHero.description4")}</p>
               </p>
             </div>
             <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

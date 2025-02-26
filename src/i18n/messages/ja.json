@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "Testimonial": {
+      "title": "自然でとても有益です！"
+    },
+    "Hero": {
+      "description1": "Ameego(アミーゴ)はスペイン語で「友達」を意味します。",
+      "description2": "Ameegoは、さまざまなAIフレンドと会話しながら、外国語を自然に習得し、楽しく学べるサービスです。"
+    },
+    "Footer": {
+      "termsOfUse": "利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "faq": "FAQ"
+    },
+    "Gallary": {
+      "description": "自分にぴったりのAmeegoと、さまざまなテーマで、いろいろな方法で会話しながら、外国語を自然に習得し、楽しく学ぶことができます。"
+    },
+    "SecondHero": {
+      "description1": "親しみやすい開発者、クールな会計士、楽しい旅行者、落ち着いたヨガ講師まで！",
+      "description2": "国籍や職業、趣味、話し方が異なるAmeegoと出会い、ネットワーキングを楽しんでください。",
+      "description3": "あなたとの会話を覚え、気にかけてくれるAmeegoと、もっと親しくなれます。",
+      "description4": "Ameegoは、まるで実際の人と会話しているかのようなAI体験を提供します。"
+    }
+  }
+}

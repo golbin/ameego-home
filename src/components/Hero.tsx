@@ -1,8 +1,11 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function Hero() {
+  const t = useTranslations("HomePage");
+
   return (
     <div className="relative isolate pt-14">
       <svg
@@ -47,9 +50,9 @@ export default function Hero() {
             Learn, Chat, and Grow with Ameego
           </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-            아미고는 스페인어로 ‘친구’를 뜻해요.
-            <p /> 아미고는 다양한 AI 친구와 대화하며 외국어를 자연스럽게
-            습득하고 즐겁게 익힐 수 있는 서비스 입니다.
+            {t("Hero.description1")}
+            <p />
+            {t("Hero.description2")}
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a href="#">
