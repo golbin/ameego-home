@@ -1,0 +1,10 @@
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.playmoreai.ameego",
+    "sha256_cert_fingerprints": [
+      "8A:B8:B5:C1:4F:EB:53:2E:2C:A9:02:25:C0:68:CE:BE:B1:FA:7B:AB:F7:2B:5B:BD:B7:20:49:79:90:98:2F:2E"
+    ]
+  }
+}

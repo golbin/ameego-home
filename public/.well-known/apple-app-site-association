@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "CNP6UV7S33.com.playmoreai.ameego",
+        "paths": [
+          "/?coupon=*",
+          "/?ameego=*"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "CNP6UV7S33.com.playmoreai.ameego"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "QQ57RJ5UTD.com.playmoreai.ameego"
+    ]
+  }
+}

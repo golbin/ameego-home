@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "Ameego English",
   description:
     "아미고는 다양한 AI 친구와 대화하며 외국어를 자연스럽게 습득하고 즐겁게 익힐 수 있는 서비스입니다.",
+  other: {
+    "apple-itunes-app": "app-id=6737622731",
+  },
 };
 
 export default async function RootLayout({
