@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   description: "Sending the coupon to the Ameego app.",
 };
 
-export default function RedeemPage({ params }: { params: { code: string } }) {
-  return <ClientOpen defaultCoupon={params.code} />;
+export default async function RedeemPage({
+  params,
+}: {
+  params: Promise<{ code: string }>;
+}) {
+  const { code } = await params;
+  return <ClientOpen defaultCoupon={code} />;
 }
