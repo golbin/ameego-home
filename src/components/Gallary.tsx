@@ -53,7 +53,7 @@ export default function Gallary() {
   const locale = useLocale() as keyof LocaleContent;
 
   return (
-    <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
           Talk with Ameego

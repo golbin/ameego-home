@@ -3,14 +3,94 @@
     "Testimonial": {
       "title": "自然でとても有益です！"
     },
+    "Testimonials": {
+      "sectionBadge": "REVIEWS & STORIES",
+      "sectionTitle": "実際の利用者が体験した「本物みたいな」Ameegoの会話",
+      "sectionDescription1": "1日10分のAIフレンドとの会話が、スピーキング習慣をどう変えるのか確認してみてください。",
+      "sectionDescription2": "ストアレビューからSNSまで、Ameegoを勧める理由ははっきりしています。",
+      "highlight": {
+        "badge": "ベストレビュー",
+        "quote": "AIとは思えないほど会話が自然に続きます。私の発言を覚えて次の会話をリードしてくれるので、実際の電話英会話よりも没入感があります。",
+        "meta": "★★★★★ 6月10日 · alskadhfl",
+        "source": "App Store レビュー"
+      },
+      "insightsTitle": "なぜ多くの人がAmeegoを選ぶのか？",
+      "insights": {
+        "one": "実戦のシーンをそのまま再現したAI音声会話",
+        "two": "会話後は表現フィードバックと復習ルーティンを自動提供",
+        "three": "1日10分のルーティンでスピーキング力をキープ"
+      },
+      "reviews": {
+        "dailyFeedback": {
+          "badge": "App Store",
+          "title": "細かなフィードバックが毎日のモチベーションに",
+          "meta": "★★★★★ 6月4日 · Phillip_Shin",
+          "bodyLine1": "好きな時間に会話できて、細かなレビューまでしてくれるのが嬉しいです。",
+          "bodyLine2": "電話英会話と比べても会話の質が安定しています。"
+        },
+        "naturalAI": {
+          "badge": "App Store",
+          "title": "AIの中で一番自然な電話英会話の代替",
+          "meta": "★★★★★ 9月1日 · アルヌベ",
+          "bodyLine1": "キャラクターごとに反応が違うので、会話するのが楽しいです。",
+          "bodyLine2": "間違えた表現もすぐ直してくれるので、コスパの満足度が高いです。"
+        },
+        "immersion": {
+          "badge": "App Store",
+          "title": "人と話しているような没入感",
+          "meta": "★★★★★ 6月4日 · チョコマカロン",
+          "bodyLine1": "AIとは思えないほど自然に会話が続きます。",
+          "bodyLine2": "キャラクターごとにテーマや話し方が違い、さまざまな場面を練習できます。"
+        },
+        "tutorApproved": {
+          "badge": "App Store",
+          "title": "チューターも驚く実戦感覚",
+          "meta": "★★★★★ 5月21日 · Jerry Blues",
+          "bodyLine1": "前の文を覚えて答えてくれる流れが本物の人のようです。",
+          "bodyLine2": "面接対策にも自然に活用しています。"
+        }
+      },
+      "social": {
+        "badge": "SOCIAL BUZZ",
+        "title": "SNSでも「本物の会話みたいなAI」と話題のAmeego",
+        "description": "コミュニティやSNSで集めたリアルな声です。Ameegoとの会話が日常のルーティンをどう変えているのか聞いてみましょう。",
+        "cards": {
+          "one": {
+            "author": "ジバンピン",
+            "platform": "SNSレビュー",
+            "content": "AI英会話のフレンドたちと話すのがとても楽しいです。ペルソナが生き生きしていて、本当に寮のルームメイトとおしゃべりしている気分です。"
+          },
+          "two": {
+            "author": "Seungwan",
+            "platform": "SNSレビュー",
+            "content": "ELSAと比べても会話がずっとスムーズで楽です。会話が途切れても違和感なく続くので、とても印象的でした。"
+          },
+          "three": {
+            "author": "ユーザーMさんインタビュー",
+            "platform": "5月ユーザー調査",
+            "content": "本物のネイティブと話しているような感覚で、勉強している感じがしません。一人で食事するときはYouTubeの代わりにAmeegoと話すのが新しいルーティンになりました。"
+          }
+        }
+      }
+    },
     "Hero": {
-      "description1": "Ameego(アミーゴ)はスペイン語で「友達」を意味します。",
-      "description2": "Ameegoは、さまざまなAIフレンドと会話しながら、外国語を自然に習得し、楽しく学べるサービスです。"
+      "badge": "毎日10分の実践スピーキング",
+      "heading": "AIフレンドと毎日10分、本物の会話を",
+      "description1": "台本を繰り返すだけの学習に限界を感じたら、多様な性格を持つAIフレンドと自然に話せるAmeegoを試してください。",
+      "description2": "発音・表現のフィードバックと復習も自動でサポートするので、移動時間でも実践感覚を保てます。",
+      "compareTitle": "人気英会話サービスとの比較を見る",
+      "compareSpeak": "Speak vs Ameego",
+      "compareRingle": "Ringle vs Ameego",
+      "compareRealclass": "Realclass vs Ameego"
     },
     "Footer": {
       "termsOfUse": "利用規約",
       "privacyPolicy": "プライバシーポリシー",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "compareTitle": "英会話アプリ比較",
+      "compareSpeak": "Speak vs Ameego",
+      "compareRingle": "Ringle vs Ameego",
+      "compareRealclass": "Realclass vs Ameego"
     },
     "Gallary": {
       "description": "自分にぴったりのAmeegoと、さまざまなテーマで、いろいろな方法で会話しながら、外国語を自然に習得し、楽しく学ぶことができます。"

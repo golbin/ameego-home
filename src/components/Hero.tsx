@@ -1,10 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function Hero() {
   const t = useTranslations("HomePage");
+
+  const compareLinks = [
+    { href: "/compare/speak", label: t("Hero.compareSpeak") },
+    { href: "/compare/ringle", label: t("Hero.compareRingle") },
+    { href: "/compare/realclass", label: t("Hero.compareRealclass") },
+  ];
 
   return (
     <div className="relative isolate pt-14">
@@ -37,50 +44,47 @@ export default function Hero() {
           strokeWidth={0}
         />
       </svg>
-      <div className="mx-auto max-w-7xl px-6 py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 pt-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-          <div className="flex">
-            <div className="relative flex items-center gap-x-4 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              <div className="flex items-center gap-x-1">
-                Your English Journey Starts Here
-              </div>
-            </div>
+          <div className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1 text-sm text-gray-600 ring-1 ring-gray-900/10">
+            {t("Hero.badge")}
           </div>
           <h1 className="mt-10 text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-            Learn, Chat, and Grow with Ameego
+            {t("Hero.heading")}
           </h1>
-          <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+          <p className="mt-8 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8">
             {t("Hero.description1")}
-            <p />
+          </p>
+          <p className="mt-4 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8">
             {t("Hero.description2")}
           </p>
-          <div className="mt-10 flex items-center gap-x-6">
-            <a href="#">
-              <div className="flex items-center gap-2">
-                <a
-                  href="https://apps.apple.com/app/id6737622731"
-                  target="_blank"
-                >
-                  <Image
-                    src="/apple-store-icon.png"
-                    width={160}
-                    height={160}
-                    alt="Apple Store Icon"
-                  />
-                </a>
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.playmoreai.ameego"
-                  target="_blank"
-                >
-                  <Image
-                    src="/play-store-icon.png"
-                    width={160}
-                    height={160}
-                    alt="Google Play Store Icon"
-                  />
-                </a>
-              </div>
-            </a>
+          <div className="mt-10 space-y-5">
+            <div className="flex flex-wrap items-center gap-4">
+              <a
+                href="https://apps.apple.com/app/id6737622731"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  src="/apple-store-icon.png"
+                  width={160}
+                  height={48}
+                  alt="Apple App Store"
+                />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.playmoreai.ameego"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  src="/play-store-icon.png"
+                  width={160}
+                  height={48}
+                  alt="Google Play Store"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">

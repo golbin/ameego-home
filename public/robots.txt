@@ -1,2 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /ameego/
+Disallow: /redeem/
+Disallow: /open/experiments
+
+# Sitemap
+Sitemap: https://www.ameego.club/sitemap.xml

@@ -3,14 +3,94 @@
     "Testimonial": {
       "title": "It’s natural and insightful!"
     },
+    "Testimonials": {
+      "sectionBadge": "REVIEWS & STORIES",
+      "sectionTitle": "Real users share Ameego chats that feel \"just like\" real life",
+      "sectionDescription1": "See how a 10-minute daily chat with an AI friend reshapes your speaking routine.",
+      "sectionDescription2": "From app store reviews to social media, people recommend Ameego for the same reasons.",
+      "highlight": {
+        "badge": "Top Review",
+        "quote": "The conversation flows so naturally that it's hard to believe it's AI. It remembers what I said and guides the next part, so I'm more immersed than with live phone lessons.",
+        "meta": "★★★★★ Jun 10 · alskadhfl",
+        "source": "App Store Review"
+      },
+      "insightsTitle": "Why do learners choose Ameego?",
+      "insights": {
+        "one": "AI voice conversations that mirror real-world situations",
+        "two": "Automatic expression feedback and review routine after every chat",
+        "three": "Keep your speaking muscle active with a 10-minute daily habit"
+      },
+      "reviews": {
+        "dailyFeedback": {
+          "badge": "App Store",
+          "title": "Detailed feedback keeps me motivated every day",
+          "meta": "★★★★★ Jun 4 · Phillip_Shin",
+          "bodyLine1": "I can call whenever I want and still get a thorough review afterward.",
+          "bodyLine2": "Compared with phone lessons, the conversation quality stays consistently high."
+        },
+        "naturalAI": {
+          "badge": "App Store",
+          "title": "The most natural phone-lesson alternative among AI apps",
+          "meta": "★★★★★ Sep 1 · Arnube",
+          "bodyLine1": "Each character reacts differently, which keeps the conversation fun.",
+          "bodyLine2": "It corrects my mistakes right away, so the value for money is great."
+        },
+        "immersion": {
+          "badge": "App Store",
+          "title": "Immersive enough to feel like a real person",
+          "meta": "★★★★★ Jun 4 · ChocoMacaron",
+          "bodyLine1": "The chat flows so naturally that it's hard to believe it's AI.",
+          "bodyLine2": "Topics and tones vary by character, so I can practice diverse situations."
+        },
+        "tutorApproved": {
+          "badge": "App Store",
+          "title": "Even my tutor is surprised by my real-life instincts",
+          "meta": "★★★★★ May 21 · Jerry Blues",
+          "bodyLine1": "It remembers earlier sentences and responds just like a real person.",
+          "bodyLine2": "I also use it naturally for interview prep."
+        }
+      },
+      "social": {
+        "badge": "SOCIAL BUZZ",
+        "title": "On social media, Ameego is known as \"the AI that feels real\"",
+        "description": "Real comments from communities and social channels. See how chatting with Ameego is reshaping daily routines.",
+        "cards": {
+          "one": {
+            "author": "Jibangping",
+            "platform": "Social Review",
+            "content": "Chatting with the AI speaking buddies is so delightful. Every persona feels alive, like chatting with a dorm roommate."
+          },
+          "two": {
+            "author": "Seungwan",
+            "platform": "Social Review",
+            "content": "Even compared to ELSA, the conversations flow much more smoothly. It picks back up without awkward pauses, which really impressed me."
+          },
+          "three": {
+            "author": "Interview with user M",
+            "platform": "May User Study",
+            "content": "It feels like talking with a real native speaker, so it doesn't feel like studying. Chatting with Ameego instead of YouTube during solo meals has become my new routine."
+          }
+        }
+      }
+    },
     "Hero": {
-      "description1": "Ameego means 'friend' in Spanish.",
-      "description2": "Ameego is a service that lets you naturally acquire and enjoy learning a foreign language by chatting with various AI friends."
+      "badge": "Daily 10-Minute Speaking",
+      "heading": "Speak naturally with AI friends every day",
+      "description1": "If repeating scripted lines felt limiting, switch to Ameego and chat freely with AI friends who have real personalities.",
+      "description2": "We coach your pronunciation and expressions while you practice, so you can keep your speaking muscle active on any schedule.",
+      "compareTitle": "See how Ameego stacks up",
+      "compareSpeak": "Speak vs Ameego",
+      "compareRingle": "Ringle vs Ameego",
+      "compareRealclass": "Realclass vs Ameego"
     },
     "Footer": {
       "termsOfUse": "Terms of Use",
       "privacyPolicy": "Privacy Policy",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "compareTitle": "Compare speaking apps",
+      "compareSpeak": "Speak vs Ameego",
+      "compareRingle": "Ringle vs Ameego",
+      "compareRealclass": "Realclass vs Ameego"
     },
     "Gallary": {
       "description": "Chat on a variety of topics in different ways with the Ameego that suits you best, and learn a new language naturally while having fun."

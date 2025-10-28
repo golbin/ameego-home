@@ -50,7 +50,7 @@ export default function SecondHero() {
         />
       </div>
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
+        <div className="mx-auto max-w-7xl px-6 pb-16 pt-24 lg:pb-8 lg:px-8 lg:pt-16">
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
               <h1 className="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">

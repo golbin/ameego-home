@@ -3,14 +3,94 @@
     "Testimonial": {
       "title": "자연스럽고 유익해요!"
     },
+    "Testimonials": {
+      "sectionBadge": "REVIEWS & STORIES",
+      "sectionTitle": "실제 이용자들이 경험한 \"진짜 같은\" 아미고 대화",
+      "sectionDescription1": "하루 10분, AI 친구와 나누는 대화가 어떻게 스피킹 루틴을 바꾸는지 확인해 보세요.",
+      "sectionDescription2": "스토어 후기부터 SNS까지, 아미고를 추천하는 이유가 분명합니다.",
+      "highlight": {
+        "badge": "베스트 후기",
+        "quote": "AI라고 믿기 힘들 정도로 자연스럽게 대화가 이어져요. 제가 말한 내용을 기억하고 다음 대화를 이끌어 주니까, 실제 전화영어보다 몰입도가 더 높습니다.",
+        "meta": "★★★★★ 6월 10일 · alskadhfl",
+        "source": "App Store 리뷰"
+      },
+      "insightsTitle": "왜 사람들이 아미고를 찾을까요?",
+      "insights": {
+        "one": "실전 상황을 그대로 옮겨 놓은 AI 음성 대화",
+        "two": "대화가 끝나면 표현 피드백과 복습 루틴 자동 제공",
+        "three": "하루 10분 루틴으로 말하기 근육을 유지"
+      },
+      "reviews": {
+        "dailyFeedback": {
+          "badge": "App Store",
+          "title": "세세한 피드백이 매일 동기부여 돼요",
+          "meta": "★★★★★ 6월 4일 · Phillip_Shin",
+          "bodyLine1": "원하는 시간에 통화하고, 세세한 피드백 리뷰까지 제공돼요.",
+          "bodyLine2": "전화영어와 비교했을 때 일정한 대화 퀄리티를 유지해 줍니다."
+        },
+        "naturalAI": {
+          "badge": "App Store",
+          "title": "AI중 가장 자연스러운 전화영어 대체",
+          "meta": "★★★★★ 9월 1일 · 아르누베",
+          "bodyLine1": "캐릭터마다 반응이 달라서 대화하는 재미가 있습니다.",
+          "bodyLine2": "실수한 표현도 바로잡아 주니, 가격 대비 만족도가 높아요."
+        },
+        "immersion": {
+          "badge": "App Store",
+          "title": "사람과 이야기하는 듯한 몰입감",
+          "meta": "★★★★★ 6월 4일 · 초코마카롱",
+          "bodyLine1": "AI라고 믿기 어려울 정도로 자연스럽게 이어지는 대화.",
+          "bodyLine2": "주제와 말투가 캐릭터마다 달라서 다양한 상황을 연습할 수 있어요."
+        },
+        "tutorApproved": {
+          "badge": "App Store",
+          "title": "튜터도 놀란 실전 감각",
+          "meta": "★★★★★ 5월 21일 · Jerry Blues",
+          "bodyLine1": "이전 문장을 기억하고 답해 주는 흐름이 실제 사람 같습니다.",
+          "bodyLine2": "면접 대비에도 자연스럽게 활용하고 있어요."
+        }
+      },
+      "social": {
+        "badge": "SOCIAL BUZZ",
+        "title": "SNS에서도 아미고는 ‘실제 대화 같은 AI’로 통합니다",
+        "description": "커뮤니티와 SNS에서 발견한 생생한 후기. 아미고와의 대화가 어떻게 일상 루틴을 바꾸고 있는지 들어보세요.",
+        "cards": {
+          "one": {
+            "author": "지방핑",
+            "platform": "SNS 후기",
+            "content": "AI 영어 대화 친구들이랑 이야기하는 게 너무 유쾌해요. 페르소나가 살아 있어서 정말 기숙사 룸메이트와 수다 떠는 기분!"
+          },
+          "two": {
+            "author": "Seungwan",
+            "platform": "SNS 후기",
+            "content": "ELSA랑 비교해도 대화가 훨씬 매끄럽고 편해요. 대화가 끊겼다가도 어색하지 않게 이어져서 인상적이었습니다."
+          },
+          "three": {
+            "author": "사용자 M님 인터뷰",
+            "platform": "5월 사용자 조사",
+            "content": "찐 원어민이랑 통화하는 기분이라 공부라는 느낌이 덜해요. 혼밥할 때 유튜브 대신 아미고랑 대화하는 게 새로운 루틴이 됐어요."
+          }
+        }
+      }
+    },
     "Hero": {
-      "description1": "아미고는 스페인어로 ‘친구’를 뜻해요.",
-      "description2": "아미고는 다양한 AI 친구와 대화하며 외국어를 자연스럽게 습득하고 즐겁게 익힐 수 있는 서비스 입니다."
+      "badge": "하루 10분 실전 스피킹",
+      "heading": "AI 친구와 매일 10분, 진짜처럼 말하세요",
+      "description1": "따라 말하기만 하는 학습이 답답했다면, 아미고에서 다양한 국적과 직업, 취미를 가진 AI 친구와 자유롭게 대화해 보세요.",
+      "description2": "하루 10분 루틴으로 말하기 근육을 유지하고, 자연스럽게 영어 말하기를 만들어 보세요.",
+      "compareTitle": "주요 영어 회화 서비스와 비교해 보세요",
+      "compareSpeak": "스픽 vs 아미고",
+      "compareRingle": "링글 vs 아미고",
+      "compareRealclass": "리얼클래스 vs 아미고"
     },
     "Footer": {
       "termsOfUse": "이용약관",
       "privacyPolicy": "개인정보처리방침",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "compareTitle": "영어 회화 앱 비교",
+      "compareSpeak": "스픽 vs 아미고",
+      "compareRingle": "링글 vs 아미고",
+      "compareRealclass": "리얼클래스 vs 아미고"
     },
     "Gallary": {
       "description": "나와 잘 맞는 아미고와 다양한 주제로, 다양한 방식으로 대화하며 외국어를 자연스럽게 습득하고 즐겁게 익힐 수 있어요"
