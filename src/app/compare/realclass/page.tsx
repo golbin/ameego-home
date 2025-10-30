@@ -224,7 +224,7 @@ export default function Page() {
             </h3>
             <p className="mt-3 text-sm leading-7 text-emerald-800">
               &quot;영상만 보면 이해는 되는데 말이 안 나왔어요. 아미고에서 같은
-              주제로 대화하니 발음 교정과 표현 추천을 바로 받아서 실전 대화에서
+              주제로 대화하니 표현 교정과 추천을 바로 받아서 실전 대화에서
               막히는 일이 확 줄었습니다.&quot; — App Store 리뷰 중
             </p>
           </div>

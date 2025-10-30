@@ -52,6 +52,9 @@ export default function Hero() {
           <h1 className="mt-10 text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
             {t("Hero.heading")}
           </h1>
+          <h1 className="mt-10 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            {t("Hero.heading2")}
+          </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-600 sm:text-xl/8">
             {t("Hero.description1")}
           </p>

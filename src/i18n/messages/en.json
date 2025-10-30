@@ -76,6 +76,7 @@
     "Hero": {
       "badge": "Daily 10-Minute Speaking",
       "heading": "Speak naturally with AI friends every day",
+      "heading2": "AI English Speaking, Ameego",
       "description1": "If repeating scripted lines felt limiting, switch to Ameego and chat freely with AI friends who have real personalities.",
       "description2": "We coach your pronunciation and expressions while you practice, so you can keep your speaking muscle active on any schedule.",
       "compareTitle": "See how Ameego stacks up",
@@ -91,6 +92,10 @@
       "compareSpeak": "Speak vs Ameego",
       "compareRingle": "Ringle vs Ameego",
       "compareRealclass": "Realclass vs Ameego"
+    },
+    "CallToAction": {
+      "title": "Try Ameego now for free!",
+      "description": "Keep your speaking muscle active with a 10-minute daily routine and experience real-world conversations without the cost."
     },
     "Gallary": {
       "description": "Chat on a variety of topics in different ways with the Ameego that suits you best, and learn a new language naturally while having fun."

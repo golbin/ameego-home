@@ -76,6 +76,7 @@
     "Hero": {
       "badge": "毎日10分の実践スピーキング",
       "heading": "AIフレンドと毎日10分、本物の会話を",
+      "heading2": "AI 電話英会話, Ameego",
       "description1": "台本を繰り返すだけの学習に限界を感じたら、多様な性格を持つAIフレンドと自然に話せるAmeegoを試してください。",
       "description2": "発音・表現のフィードバックと復習も自動でサポートするので、移動時間でも実践感覚を保てます。",
       "compareTitle": "人気英会話サービスとの比較を見る",
@@ -91,6 +92,10 @@
       "compareSpeak": "Speak vs Ameego",
       "compareRingle": "Ringle vs Ameego",
       "compareRealclass": "Realclass vs Ameego"
+    },
+    "CallToAction": {
+      "title": "今すぐ無料で体験してみましょう!",
+      "description": "毎日10分のルーティンで実戦感覚を維持し、スピーキング力を鍛えることができます。"
     },
     "Gallary": {
       "description": "自分にぴったりのAmeegoと、さまざまなテーマで、いろいろな方法で会話しながら、外国語を自然に習得し、楽しく学ぶことができます。"
