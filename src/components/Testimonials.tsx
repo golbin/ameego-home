@@ -78,10 +78,7 @@ export default function Testimonials() {
     badge: t(`reviews.${key}.badge`),
     title: t(`reviews.${key}.title`),
     meta: t(`reviews.${key}.meta`),
-    body: [
-      t(`reviews.${key}.bodyLine1`),
-      t(`reviews.${key}.bodyLine2`),
-    ],
+    body: [t(`reviews.${key}.bodyLine1`), t(`reviews.${key}.bodyLine2`)],
   }));
 
   const socialCards = socialCardKeys.map((key) => ({
@@ -116,7 +113,7 @@ export default function Testimonials() {
                 {highlightReview.badge}
               </span>
               <blockquote className="mt-6 text-lg font-semibold leading-8 text-slate-50 sm:text-xl">
-                "{highlightReview.quote}"
+                &quot;{highlightReview.quote}&quot;
               </blockquote>
               <p className="mt-4 text-xs font-medium uppercase tracking-[0.12em] text-indigo-200">
                 {highlightReview.meta} · {highlightReview.source}

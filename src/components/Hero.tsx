@@ -1,17 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function Hero() {
   const t = useTranslations("HomePage");
-
-  const compareLinks = [
-    { href: "/compare/speak", label: t("Hero.compareSpeak") },
-    { href: "/compare/ringle", label: t("Hero.compareRingle") },
-    { href: "/compare/realclass", label: t("Hero.compareRealclass") },
-  ];
 
   return (
     <div className="relative isolate pt-14">
